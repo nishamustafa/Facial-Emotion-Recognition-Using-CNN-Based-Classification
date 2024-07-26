@@ -4,39 +4,43 @@
 This project aims to develop a facial emotion recognition system using Convolutional Neural Networks (CNN). The system classifies facial emotions into various categories by leveraging deep learning techniques.
 
 # Key Activities
-Data Pre-processing
-• Data augmentation to increase the diversity of the training data.
-• Rescaling pixel values to normalize the input data.
-• Applying random rotations and shifts to make the model more robust.
 
-# Model Training
-• Implementing the CNN model.
-• Performing stratified K-fold cross-validation with different splits: 90:10, 80:20, 70:30, 60:40, 50:50.
-• Splitting the data into training and testing sets.
+**Data Pre-processing**   
+• Data augmentation to increase the diversity of the training data.   
+• Rescaling pixel values to normalize the input data.   
+• Applying random rotations and shifts to make the model more robust.   
 
-# Evaluation
-• Calculating performance metrics such as accuracy, precision, recall, and F1-score.
-• Plotting and printing the confusion matrix to visualize the model's performance.
+**Model Training**   
+• Implementing the CNN model.   
+• Performing stratified K-fold cross-validation with different splits: 90:10, 80:20, 70:30, 60:40, 50:50.   
+• Splitting the data into training and testing sets.   
 
-# Result and Discussion
-• Analyzing the performance metrics obtained from the K-fold cross-validation.
-• Comparing the performance metrics of each data split and emotion class.
-• Identifying patterns and insights from the results.
+**Evaluation**   
+• Calculating performance metrics such as accuracy, precision, recall, and F1-score.   
+• Plotting and printing the confusion matrix to visualize the model's performance.   
 
-# Repository Structure
-• data/ - Contains datasets used in the study.
-• notebooks/ - Jupyter notebooks with data preprocessing, integration, and model training steps.
-• models/ - Saved models for CNN.
-• results/ - Performance metrics and comparison results.
-• scripts/ - Python scripts for data preprocessing, model training, and evaluation.
-• README.md - Project overview and details (this file).
+**Result and Discussion**   
+• Analyzing the performance metrics obtained from the K-fold cross-validation.   
+• Comparing the performance metrics of each data split and emotion class.   
+• Identifying patterns and insights from the results.   
+
+**Repository Structure**   
+• data/ - Contains datasets used in the study.   
+• notebooks/ - Jupyter notebooks with data preprocessing, integration, and model training steps.   
+• models/ - Saved models for CNN.   
+• results/ - Performance metrics and comparison results.   
+• scripts/ - Python scripts for data preprocessing, model training, and evaluation.   
+• README.md - Project overview and details (this file).   
 
 # Usage
-• Data Pre-processing
+
+• **Data Pre-processing**   
 Execute the data_preprocessing.ipynb notebook to clean and prepare the data.
-• Model Training
+
+• **Model Training**  
 Train the CNN model using train_cnn.py.
-• Evaluation
+
+• **Evaluation**    
 Evaluate model performance using evaluate_models.ipynb.
 
 # Results
